@@ -1,0 +1,6 @@
+yfinance
+pandas
+numpy
+pytest
+pytest-mock
+plotly
