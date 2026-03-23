@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "macro-crypto-correlator"
+version = "1.0.0"
+description = "Analyzing the impact of global macro-economic indicators on stablecoin liquidity and crypto market volatility."
+license = {text = "MIT"}
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.scripts]
+macro-crypto-correlator = "macro_crypto_correlator.main:cli"
+
+[tool.setuptools.packages.find]
+include = ["macro_crypto_correlator*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
