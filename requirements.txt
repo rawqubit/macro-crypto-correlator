@@ -4,3 +4,4 @@ numpy
 pytest
 pytest-mock
 plotly
+requests_cache
